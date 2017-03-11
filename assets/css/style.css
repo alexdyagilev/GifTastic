@@ -1,4 +1,4 @@
-div {
+.gif, #gif-view, .img_text, .button {
     display: inline-block;
 }
 
@@ -7,6 +7,7 @@ div {
 	background-color: #adadad;
 	color: black;
 }
+
 
 body {
 	background-color: #631126 !important;

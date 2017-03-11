@@ -10,7 +10,7 @@
         var scifi = $(this).attr("data-name");
 
         //GIPHY API link
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + scifi + "&limit=10&  api_key=dc6zaTOxFJmzC";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + scifi + "&limit=10&  api_key=dc6zaTOxFJmzC";
 
         // Creating an AJAX call for the specific gif button being clicked
         $.ajax({

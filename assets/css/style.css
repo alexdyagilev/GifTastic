@@ -2,11 +2,17 @@ div {
     display: inline-block;
 }
 
-
 p {
-	width: 100px !important;
+	width: 100px;
 }
 
 .gif {
 	margin: 10px;
 }
+
+button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }

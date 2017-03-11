@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GIPHY API</title>
+  <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Search For GIFs!</h1>
+
+    <!-- Rendered buttons will get dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="gif-form">
+      <label for="gif-input">Add a GIF</label>
+      <input type="text" id="gif-input"><br>
+
+      <!-- Button triggers new GIF to be added -->
+      <input id="add-gif" type="submit" value="Add a GIF">
+    </form>
+
+    <!-- GIFs will get dumped dere -->
+    <div id="gif-view"></div>
+
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/logic.js" ></script>
+     
+  </div>
+</body>
+
+</html>

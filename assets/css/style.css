@@ -2,17 +2,38 @@ div {
     display: inline-block;
 }
 
-p {
-	width: 100px;
+.jumbotron {
+	width: 1100px;
+	background-color: #adadad;
+	color: black;
+}
+
+body {
+	background-color: #631126 !important;
+	
+}
+
+h1 {
+	color: black !important;
+	text-align: center;
+	font-family: 'Oswald', sans-serif !important;
+}
+
+label {
+	color: white !important;
 }
 
 .gif {
 	margin: 10px;
 }
 
+#gif-view {
+	color: white;
+}
+
 button,
     div,
     form,
     input {
-      margin: 10px;
+      margin: 5px;
     }

@@ -1,6 +1,7 @@
  //Javascript
  // Array of scifi TV shows and movies
-      var topics = ["The Expanse", "The Martian", "Interstellar", "Firefly"];
+      var topics = ["The Expanse", "The Martian", "Interstellar", "Firefly", "Battlestar Galactica", 
+      "Terra Nova", "2001: A Space Odyssey", "Doctor Who"];
 
       // Rewrites HTML with GIFs
       function displayInfo() {
@@ -73,6 +74,7 @@
       }
 
       // Function for displaying gif data
+
       function renderButtons() {
 
         // Deletes all previous buttons so no repeats
@@ -100,9 +102,11 @@
 
       // This function handles events where a topic button is clicked
       $("#add-gif").on("click", function(event) {
+        event.preventDefault();
 
         // This line grabs the input from the textbox
         var newGif = $("#gif-input").val().trim();
+        console.log(newGif);
 
         // Adding topic from the textbox to our array
         topics.push(newGif);
